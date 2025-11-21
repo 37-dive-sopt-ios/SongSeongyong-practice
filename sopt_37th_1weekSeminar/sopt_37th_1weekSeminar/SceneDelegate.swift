@@ -19,7 +19,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
       // 2.
         let window = UIWindow(windowScene: windowScene)
       // 3.
-        let vc = UINavigationController(rootViewController: ColorViewController())
+        // 네트워크 세미나 테스트를 위해 아래 줄의 주석을 해제하고 위 줄을 주석처리 하세요
+        // let vc = UINavigationController(rootViewController: LoginViewController_Network())
+        let vc = UINavigationController(rootViewController: LoginViewController_Network())
       // 4.
         window.rootViewController = vc
       // 5.
